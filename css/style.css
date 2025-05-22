@@ -1,1 +1,32 @@
-* { background: hotpink; }
+body { background-image: url(moln.jpg) }
+
+p {
+  display: inline-block;
+  animation: flyt 3s ease-in-out infinite;
+  position: relative;
+}
+
+@keyframes flyt {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+
+block {
+    border: 1rm
+    border-color: black
+}
+
+
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #2d4d6a;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  color: #3399ff;
+  font-weight: 600;
+}
+
